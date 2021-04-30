@@ -1,0 +1,51 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body h1 {
+ font-weight: bold;
+ font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    width: 400px;
+    height: 440px;
+    font-size: 14px;
+    color: black;
+    background-color: #f7f9fb;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.form-content {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.form-content .margin-top10 {
+	margin-top: 10px;
+}
+
+.form-content .margin-top20 {
+	margin-top: 20px;
+}
+
+
+.container .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
