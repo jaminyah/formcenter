@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="./css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
 
-    <title>Form Centering</title>
+    <title>Activation Code</title>
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <h1>Login</h1>
+            <h1>Confirm Activation</h1>
             <div class="form-content">
                 <form method="POST">
                     <div class="field">
-                        <label class="label">E-Mail Address</label>
+                        <label for="email">E-Mail Address</label>
                         <p class="control has-icons-left has-icons-right">
                             <input class="input" type="email" placeholder="Email">
                             <span class="icon is-small is-left">
@@ -27,25 +27,18 @@
                         </p>
                     </div>
                     <div class="field">
-                        <label class="label">Password
-                            <a href="forgot.html" class="float-right">
-                                Forgot Password?
-                            </a>
-                        </label>
+                        <label for="password">Confirmation Code</label>
                         <p class="control has-icons-left">
-                        <input class="input" type="password" placeholder="Password">
+                        <input class="input" type="text" placeholder="Code">
                         <span class="icon is-small is-left">
-                            <i class="fas fa-lock"></i>
+                            <i class="fas fa-shield-alt"></i>
                         </span>
                         </p>
                     </div>
                     <div class="field">
                         <p class="control">
-                            <button class="button is-success">Login</button>
+                            <button class="button is-success">Send</button>
                         </p>
-                        <div class="margin-top20 text-center">
-                            Don't have an account? <a href="register.html">Create One</a>
-                        </div>
                     </div>							 
                 </form>
             </div>
